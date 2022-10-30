@@ -3,7 +3,7 @@
 #< https://t.me/ZedThon >
 # This file is a part of < https://github.com/Zed-Thon/ZelZal/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/Zed-Thon/ZelZal/blob/master/LICENSE/>.
+# <https://www.github.com/Zed-Thon/Xl441/blob/master/LICENSE/>.
 
 import asyncio
 import glob
@@ -83,7 +83,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/f821d27af168206b472ad.mp4",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس زدثــون الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("𝙕𝙀𝘿𝙏𝙝𝙤𝙣𓅛", "https://t.me/ZedThon"),)],
+                buttons=[(Button.url("بـاسـل", "https://t.me/Xl441"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -121,8 +121,8 @@ async def mybot():
     f"ـ {zel_zal}"
     f"•⎆┊هــذا البــوت خــاص بـ {zel_zal} يمكـنك التواصــل معـه هـنا 🧸♥️"
     zilbot = await zedub.tgbot.get_me()
-    bot_name = zilbot.first_name
-    botname = f"@{zilbot.username}"
+    bot_name = zlbot.first_name
+    botname = f"@{zilbt.username}"
     if bot_name.endswith("Assistant"):
         print("تم تشغيل البوت بنجــاح")
     else:
@@ -254,11 +254,11 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await zedub(JoinChannelRequest("@zedthon"))
+        await zedub(JoinChannelRequest("@Xl441"))
     except BaseException:
         pass
     try:
-        await zedub(JoinChannelRequest("@zed_thon"))
+        await zedub(JoinChannelRequest("@ed_thon"))
     except BaseException:
         pass
 
@@ -297,9 +297,9 @@ async def verifyLoggerGroup():
             )
     else:
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامه (وظيفتهـا تخزيـن كـل سجـلات وعمليـات البـوت.)"
-        photozed = await zedub.upload_file(file="zedthon/malath/Zpic.jpg")
+        photozed = https://te.legra.ph/file/b1b398463cce541420615.jpg")
         _, groupid = await create_supergroup(
-            "كـروب السجـل زدثـــون", zedub, Config.TG_BOT_USERNAME, descript, photozed
+            "كـروب السجـل باسل", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print(
@@ -326,7 +326,7 @@ async def verifyLoggerGroup():
             LOGS.error("حدث خطأ اثناء التعرف على فار PM_LOGGER_GROUP_ID.\n" + str(e))
     else:
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامه (وظيفتهـا تخزيـن رسـائل الخـاص.)"
-        photozed = await zedub.upload_file(file="zedthon/malath/Apic.jpg")
+        photozed = await zedub.upload_file(file="Xl441/malath/Apic.jpg")
         _, groupid = await create_supergroup(
             "كـروب التخـزين", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
